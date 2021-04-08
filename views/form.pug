@@ -1,0 +1,11 @@
+extends layout 
+
+block content 
+    <form method="POST" action="/new">
+      <h1>New Message</h1>
+      <input type="text" id="author" name="author" placeholder="Name" required >  
+      <label for="msg">Message: </label>
+      <input type="text" id="msg" name="msg">
+      <input type="submit" value="Submit">
+    </form>
+      
