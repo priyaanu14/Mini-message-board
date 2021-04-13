@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #ffb4a2
+  color: #ffb4a2;
   background-color: #6d6875;
 }
 
@@ -22,7 +22,7 @@ ul li{
      transition: 0.2s ease;
      position: relative;
      left: 0;
-     font-size: lem;
+     font-size: 1em;
 }
 ul li:hover {
      left: 5px;
