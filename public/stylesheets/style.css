@@ -1,31 +1,76 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: #ffb4a2;
-  background-color: #6d6875;
+     padding: 50px;
+     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+     color: #8b6d4d;
+     background-color: #1b1924;
 }
 
 a {
-  color: #FFCDB2;
+     color: #74593d;
 }
-ul{
-  list-style: none;
-  color: #b5838d;
-}
-ul li{
+
+.msg-box {
      margin-bottom: 20px;
-     box-shadow: 0 3px 7px #00577759;
-     background-color: #b5838d;
+     box-shadow: 0 3px 7px #000000;
+     background-color: #3f3232;
      padding: 10px;
      border-radius: 5px;
-     width:520px;
+     width: 520px;
      transition: 0.2s ease;
      position: relative;
      left: 0;
      font-size: 1em;
+     color: white;
 }
-ul li:hover {
+.msg-box:hover {
      left: 5px;
+}
+
+.msg-box #user {
+     color: #b5c1b4;
+}
+
+.msg-box .date {
+     color: #b5b1b4;
+     font-size: 10px;
+}
+
+form{
+     display: flex;
+     flex-direction: column;
+}
+
+input{
+     padding: 5px 10px;
+     border-radius: 5px;
+     border: 1px solid #3f3232;
+     width: 360px;
+     margin-bottom: 15px;
+     background-color: #dcd9c6;
+     transition: 0.2s ease;
+}
+
+input:focus{
+     outline: none;
+     box-shadow: #dcd9c6;
+}
+
+textarea{
+     background-color: #dcd9c6;
+     width: 360px;
+     padding: 5px 10px;
+     border-radius: 5px;
+     border: 1px solid #3f3232;
+     margin-bottom: 15px;
+     transition: 0.2s ease;
+}
+
+input[type='submit'] {
+     background-color: #a6b6a5;
+     color: #3f3232;
+     height: 30px;
+     width: 380px;
+     font-weight: bolder;
 }
 
 

@@ -2,12 +2,11 @@ extends layout
 
 block content
     <a href="/">Back</a>
-    <h1>You have got your space..</h1>
-    <h3>Let your mind and heart free and let them speak for you.This all will never get saved so good to go 
+    h1 You have got your space..
+    h3#formdes Let your mind and heart free and let them speak for you.This all will never get saved so good to go!!! 
     <form method="POST" action="/new">   
       <input type="text" id="author" name="author" placeholder="Name" required >  
-      <label for="msg">Message: </label>
-      <input type="text" id="msg" name="msg">
+      <textarea name="text" rows= "5" cols="40" >Write your message here...</textarea>
       <input type="submit" value="Submit">
     </form>
       
