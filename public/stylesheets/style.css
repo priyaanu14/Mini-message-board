@@ -8,11 +8,26 @@ body {
 a {
   color: #FFCDB2;
 }
-div{
-     border-style: outset;
-     border-width: 2px;
-     background-color: #b5838d;
-     color: #e5989b; 
+ul{
+  list-style: none;
+  color: #b5838d;
 }
+ul li{
+     margin-bottom: 20px;
+     box-shadow: 0 3px 7px #00577759;
+     background-color: #b5838d;
+     padding: 10px;
+     border-radius: 5px;
+     width:520px;
+     transition: 0.2s ease;
+     position: relative;
+     left: 0;
+     font-size: lem;
+}
+ul li:hover {
+     left: 5px;
+}
+
+
 
 
