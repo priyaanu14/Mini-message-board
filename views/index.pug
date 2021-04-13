@@ -4,9 +4,11 @@ block content
   h1= title
   h2  A safe place for you to pour your heart out !!!
   p Got something on mind?! <a href ="/new">Feel it and say it. </a>
-  ul 
-    each message  in messages
-        h3= message.user  
-        p= message.text 
-        p= message.added 
+   
+      each message  in messages
+        section.msg-box
+
+          h3#user= message.user  
+          p.text= message.text 
+          p.date= message.added 
         
